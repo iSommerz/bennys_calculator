@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bennys Motor Works</title>
+
+</head>
+
+<body>
+    <div id="container">
+            <h1 class="title">Calculadora Bennys</h1>
+        <div>
+            <form class="tipsForm" id="tipsForm">
+                <div class="form-group">
+                    <label for="qty">
+                        <p>Quantas peças vão ser usadas?</p>
+                    </label>
+                    <div class="form-row">
+                       <input type="number" placeholder="10" name="qty" id="qty" class="formInput peso" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="type">
+                        <p>Qual o tipo da peça?</p>
+                    </label>
+                    <div class="form-row">
+                         <select name="type" id="type" class="formInput type" required> 
+                            <option value="S">S</option>
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                            <option value="D">D</option>
+                            <option value="M">M</option>
+                         </select>
+
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <div class="result">
+        <div class="totalbennys">
+            Total da Bennys:
+            <span id="totalbennys">00</span>
+        </div>
+        <div class="totalbennys">
+            Comissão: <span id="comission">00</span>
+        </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts.js"></script>
+    
+</body>
+
+</html>

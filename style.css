@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700|PT+Mono);
+
+:root {
+    --primary-color: #000000;
+    --secondary-color: rgb(248, 248, 248);
+    --tertiary-color: rgb(217,72,107);
+
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('bennys.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+}
+
+#container {
+    width: 360px;
+    margin: 100px auto;
+    background:  #f7f7f7;
+    box-shadow: 0px 0px 18px 0px var(--tertiary-color);
+    border-radius: 20px;
+}
+
+.title {
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.tipsForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.formInput {
+    background: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+    text-align: center;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 5px 5px 8px 8px;
+    
+}
+
+.type {
+    flex-direction: column;
+}
+
+/* .bennys {
+    background-image: url('bennys.png');
+    background-repeat: no-repeat;
+    width: 500px;
+  } */
+
